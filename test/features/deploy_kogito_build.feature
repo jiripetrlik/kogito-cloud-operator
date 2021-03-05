@@ -20,6 +20,7 @@ Feature: Deploy Kogito Build
 
     @smoke
     @quarkus
+    @custom
     Examples:
       | runtime    | example-service         | native   | minutes |
       | quarkus    | process-quarkus-example | disabled | 10      |
